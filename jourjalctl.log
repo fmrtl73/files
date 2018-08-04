@@ -1,0 +1,67 @@
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg=attach AbortOnError=false AttachedState=ATTACH_STATE_EXTERNAL Driver=pxd Error=<nil> Format=FS_TYPE_EXT4 Function=d.volumePut ID=1037657727493991369 State=VOLUME_STATE_ATTACHED Version=179
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg="Action: 2 data <nil>" AttachedOn=node01 Driver=kernel Error=<nil> Function=VolumeStateChange ID=1037657727493991369 State=VOLUME_STATE_ATTACHED Version=215
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="process_cdb_update: dev: 1037657727493991369 rset: 0 node[ 0 1 2 ] curr[ 0 1 2 ] next[ 0 1 2 ] new_rset [ empty ] remove [ empty ] pool_ids [ 0 0 0 ]  new_pool_ids [ empty ]"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="process_cdb_update: new state dev: 1037657727493991369 rset 0 nodes[ 0 1 2 ] curr[ 0 1 2 ] new[ empty ] rem[ empty ]"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="process_cdb_update: v: 215 node: 1 mounting device 1037657727493991369 was on -1"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="ResyncRequest: dev 1037657727493991369 rset 0 v 215 from [0 1 2] to [0 1 2]"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg="Attaching NS volume 1037657727493991369"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg="Exporting ns volume:1037657727493991369"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg="Volume 1037657727493991369:ObjectStoreData exported at /var/lib/osd/pxns/1037657727493991369"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg="Attached namespace volume ObjectStoreData"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg="Mount=VOLUME_ACTION_PARAM_NONE Attach=VOLUME_ACTION_PARAM_ON" Driver=pxd ID=ObjectStoreConfig Request=volumeSet
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg=attach AbortOnError=false AttachedState=ATTACH_STATE_EXTERNAL Driver=pxd Error=<nil> Format=FS_TYPE_EXT4 Function=d.volumePut ID=648685871479951919 State=VOLUME_STATE_ATTACHED Version=206
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04T16:12:12Z" level=info msg="Action: 2 data <nil>" AttachedOn=node01 Driver=kernel Error=<nil> Function=VolumeStateChange ID=648685871479951919 State=VOLUME_STATE_ATTACHED Version=224
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="process_cdb_update: dev: 648685871479951919 rset: 0 node[ 0 1 2 ] curr[ 0 1 2 ] next[ 0 1 2 ] new_rset [ empty ] remove [ empty ] pool_ids [ 0 0 0 ]  new_pool_ids [ empty ]"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="process_cdb_update: new state dev: 648685871479951919 rset 0 nodes[ 0 1 2 ] curr[ 0 1 2 ] new[ empty ] rem[ empty ]"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="process_cdb_update: v: 224 node: 1 mounting device 648685871479951919 was on -1"
+Aug 04 16:12:12 node01 px-runc[4044]: time="2018-08-04 16:12:12Z" level=INFO msg="ResyncRequest: dev 648685871479951919 rset 0 v 224 from [0 1 2] to [0 1 2]"
+Aug 04 16:12:13 node01 px-runc[4044]: time="2018-08-04T16:12:13Z" level=info msg="Attaching NS volume 648685871479951919"
+Aug 04 16:12:13 node01 px-runc[4044]: time="2018-08-04T16:12:13Z" level=info msg="Exporting ns volume:648685871479951919"
+Aug 04 16:12:13 node01 px-runc[4044]: time="2018-08-04T16:12:13Z" level=info msg="Volume 648685871479951919:ObjectStoreConfig exported at /var/lib/osd/pxns/648685871479951919"
+Aug 04 16:12:13 node01 px-runc[4044]: time="2018-08-04T16:12:13Z" level=info msg="Attached namespace volume ObjectStoreConfig"
+Aug 04 16:12:13 node01 px-runc[4044]: time="2018-08-04T16:12:13Z" level=info msg="Mount=VOLUME_ACTION_PARAM_ON Attach=VOLUME_ACTION_PARAM_NONE" Driver=pxd ID=ObjectStoreData Request=volumeSet
+Aug 04 16:12:14 node01 px-runc[4044]: time="2018-08-04T16:12:14Z" level=info msg="Mounting namespace volume 1037657727493991369 (ObjectStoreData) at /var/lib/osd/mounts/objectStoreData"
+Aug 04 16:12:14 node01 px-runc[4044]: time="2018-08-04T16:12:14Z" level=info msg="allocPxns:Locally attached namespace Vol"
+Aug 04 16:12:14 node01 px-runc[4044]: time="2018-08-04T16:12:14Z" level=info msg="allocPxns: Volume attached at 172.17.0.28"
+Aug 04 16:12:14 node01 px-runc[4044]: Allocating PXNS for 1037657727493991369
+Aug 04 16:12:14 node01 px-runc[4044]: Adding subvol ObjectStoreData to namespace 1037657727493991369
+Aug 04 16:12:14 node01 px-runc[4044]: Namespace volume 1037657727493991369 proximity to RPC channel: 1
+Aug 04 16:12:14 node01 px-runc[4044]: Mount opts for volume 1037657727493991369 gid:0, uid:0, neg_attr:0, attr:0
+Aug 04 16:12:14 node01 px-runc[4044]: Created virtual path /pxmounts/1037657727493991369 attached at 172.17.0.28
+Aug 04 16:12:14 node01 px-runc[4044]: Setting ac_cache to 1
+Aug 04 16:12:14 node01 px-runc[4044]: NS client starting fuse module
+Aug 04 16:12:14 node01 px-runc[4044]: Initilaizing fuse for 1037657727493991369
+Aug 04 16:12:14 node01 px-runc[4044]: time="2018-08-04T16:12:14Z" level=info msg="ns_attach_subvols: Requesting namespace attachment for volume 1037657727493991369"
+Aug 04 16:12:14 node01 px-runc[4044]: time="2018-08-04T16:12:14Z" level=info msg="Mount=VOLUME_ACTION_PARAM_NONE Attach=VOLUME_ACTION_PARAM_ON" Driver=pxd ID=1037657727493991369 Request=volumeSet
+Aug 04 16:12:15 node01 px-runc[4044]: time="2018-08-04T16:12:15Z" level=info msg="Mounted namespace volume 1037657727493991369 at /var/lib/osd/mounts/objectStoreData"
+Aug 04 16:12:15 node01 px-runc[4044]: time="2018-08-04T16:12:15Z" level=info msg="Attaching NS volume 1037657727493991369"
+Aug 04 16:12:15 node01 px-runc[4044]: time="2018-08-04T16:12:15Z" level=info msg="Exporting ns volume:1037657727493991369"
+Aug 04 16:12:15 node01 px-runc[4044]: time="2018-08-04T16:12:15Z" level=info msg="Volume 1037657727493991369 is already exported at /var/lib/osd/pxns/1037657727493991369"
+Aug 04 16:12:15 node01 px-runc[4044]: time="2018-08-04T16:12:15Z" level=info msg="Attached namespace volume ObjectStoreData"
+Aug 04 16:12:15 node01 px-runc[4044]: time="2018-08-04T16:12:15Z" level=info msg="Mount=VOLUME_ACTION_PARAM_ON Attach=VOLUME_ACTION_PARAM_NONE" Driver=pxd ID=ObjectStoreConfig Request=volumeSet
+Aug 04 16:12:16 node01 px-runc[4044]: time="2018-08-04T16:12:16Z" level=info msg="Mounting namespace volume 648685871479951919 (ObjectStoreConfig) at /var/lib/osd/mounts/objectStoreConfig"
+Aug 04 16:12:16 node01 px-runc[4044]: time="2018-08-04T16:12:16Z" level=info msg="allocPxns:Locally attached namespace Vol"
+Aug 04 16:12:16 node01 px-runc[4044]: time="2018-08-04T16:12:16Z" level=info msg="allocPxns: Volume attached at 172.17.0.28"
+Aug 04 16:12:16 node01 px-runc[4044]: Allocating PXNS for 648685871479951919
+Aug 04 16:12:16 node01 px-runc[4044]: Adding subvol ObjectStoreConfig to namespace 648685871479951919
+Aug 04 16:12:16 node01 px-runc[4044]: Namespace volume 648685871479951919 proximity to RPC channel: 1
+Aug 04 16:12:16 node01 px-runc[4044]: Mount opts for volume 648685871479951919 gid:0, uid:0, neg_attr:0, attr:0
+Aug 04 16:12:16 node01 px-runc[4044]: Created virtual path /pxmounts/648685871479951919 attached at 172.17.0.28
+Aug 04 16:12:16 node01 px-runc[4044]: time="2018-08-04T16:12:16Z" level=info msg="ns_attach_subvols: Namespace volume 1037657727493991369 attached on 172.17.0.28"
+Aug 04 16:12:16 node01 px-runc[4044]: Setting ac_cache to 1
+Aug 04 16:12:16 node01 px-runc[4044]: NS client starting fuse module
+Aug 04 16:12:16 node01 px-runc[4044]: Initilaizing fuse for 648685871479951919
+Aug 04 16:12:16 node01 px-runc[4044]: time="2018-08-04T16:12:16Z" level=info msg="ns_attach_subvols: Requesting namespace attachment for volume 648685871479951919"
+Aug 04 16:12:16 node01 px-runc[4044]: time="2018-08-04T16:12:16Z" level=info msg="Mount=VOLUME_ACTION_PARAM_NONE Attach=VOLUME_ACTION_PARAM_ON" Driver=pxd ID=648685871479951919 Request=volumeSet
+Aug 04 16:12:18 node01 px-runc[4044]: time="2018-08-04T16:12:18Z" level=info msg="Attached locally"
+Aug 04 16:12:18 node01 px-runc[4044]: time="2018-08-04T16:12:18Z" level=info msg="ns_attach_info:Volume:1037657727493991369 is attached on:172.17.0.28"
+Aug 04 16:12:18 node01 px-runc[4044]: Added socket:469766572
+Aug 04 16:12:19 node01 px-runc[4044]: time="2018-08-04T16:12:19Z" level=info msg="Mounted namespace volume 648685871479951919 at /var/lib/osd/mounts/objectStoreConfig"
+Aug 04 16:12:21 node01 px-runc[4044]: time="2018-08-04T16:12:21Z" level=info msg="Attaching NS volume 648685871479951919"
+Aug 04 16:12:21 node01 px-runc[4044]: time="2018-08-04T16:12:21Z" level=info msg="Exporting ns volume:648685871479951919"
+Aug 04 16:12:21 node01 px-runc[4044]: time="2018-08-04T16:12:21Z" level=info msg="Volume 648685871479951919 is already exported at /var/lib/osd/pxns/648685871479951919"
+Aug 04 16:12:21 node01 px-runc[4044]: time="2018-08-04T16:12:21Z" level=info msg="Attached namespace volume ObjectStoreConfig"
+Aug 04 16:12:21 node01 px-runc[4044]: time="2018-08-04T16:12:21Z" level=info msg="ns_attach_subvols: Namespace volume 648685871479951919 attached on 172.17.0.28"
+Aug 04 16:12:21 node01 px-runc[4044]: time="2018-08-04T16:12:21Z" level=info msg="Attached locally"
+Aug 04 16:12:21 node01 px-runc[4044]: time="2018-08-04T16:12:21Z" level=info msg="ns_attach_info:Volume:648685871479951919 is attached on:172.17.0.28"
+Aug 04 16:12:21 node01 px-runc[4044]: Added socket:469766572
